@@ -1,0 +1,67 @@
+#root{
+    background-color:black;
+}
+section{
+    padding: 70px 70px;
+    background-color: black;
+}
+
+h6{
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 16em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%) ;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+ 
+}
+.card:hover{
+
+    transform: scale(1.1);
+}
+
+.infomivie{
+margin-top: 100px;
+margin-left: 100px;
+background-color: black;
+
+}
+.cardsinfo{
+
+    width: 800px;
+    margin-left: 10px;
+
+    
+}
+.infomivie h1,h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:yellow;
+        padding: 5px;
+    }
+.infomivie{
+    display:flex;
+}
+.infomivie h3{
+font-family: 'Courier New', Courier, monospace;
+color: yellow;
+    padding: 10px;
+    text-transform: uppercase;
+    
+    
+}
+.infomivie h4{
+    font-family: 'Courier New', Courier, monospace;
+   margin-left: 30px;
+   color: white;
+    }
